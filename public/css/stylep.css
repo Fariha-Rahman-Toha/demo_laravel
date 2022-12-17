@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html { scroll-behavior: smooth;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fffdff;
+     font-family: helvetica;
+}
+
+img {
+    max-width: 100%;
+margin-top: px;
+}
+
+
+#navbar {
+display: flex;
+justify-content: flex-end;
+padding: 1rem;
+position: fixed;
+width: 100%;
+border-bottom: 4px dashed white;
+background-color:  #1d5ae0 ;
+z-index: 1;
+}
+
+ul {    list-style-type: none;
+    display: flex;
+    justify-content: space-around;  
+}
+
+a {
+   padding: 0 1rem;
+   color: white;
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: bold;
+}
+ 
+.welcome-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1d5ae0;
+    height: 100vh;
+
+}
+
+h1 {
+      font-size: 3rem;
+      text-align: center;
+  margin-top: 15rem;
+}
+
+p {
+    font-size: 1.5rem;
+    text-align: center;
+    font-style: italic; 
+}
+
+.special {
+  margin-bottom: 4rem;
+}
+
+#about-me {
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-top: -4em;
+   margin-bottom: 2em;
+
+
+}
+
+h2 {
+    font-size: 2.5rem;
+      text-align: center;
+      padding: .5rem; 
+        
+        
+}
+
+.h2-2 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 3rem;
+  padding-top: 15rem;
+}
+
+p.h2-2 {
+  margin-top: -250px;
+   font-size: 2rem;
+
+}
+
+#projects {
+ background-color: #1d5ae0;
+  padding-bottom: 2rem;
+}
+
+
+.gallery {
+display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1450px;
+  margin: 0 auto;
+  padding: 20px 10px;
+
+
+ 
+}
+.grid-img {
+  max-width: 450px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 3px;
+    box-shadow: 0 3px 5px rgb(0, 0, 0, 0.6);
+
+}
+
+.grid-img:hover {
+       transform: translateY(.20em);
+       z-index: -1;
+       transition-duration: .5s;
+      
+}
+
+
+/*button styling inspired by Elle Townsend*/
+
+button {
+box-shadow: 0 10px #4fa283;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #60d394;
+border-radius: .25rem;
+color: white;
+padding: .5rem 2rem;
+font-size: 1.5rem;
+font-weight: bold;
+ 
+}
+button:hover {
+  box-shadow: 0 8px #4fa283;
+  transform: translateY(1px);
+}
+button:active {
+  background-color: #4b9489;
+  box-shadow: 0 5px #407762;
+  transform: translateY(4px);
+}
+
+
+span {
+  font-size: 30px;
+}
+
+
+#work-together {
+  background-color:#fd8657;
+ padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+.work-together {
+  width: 80%;
+  margin: 0 auto;
+}
+#personal-info {
+font-size: 25px;
+padding-bottom: 40px;
+}
+
+#smiley {
+  font-size: 40px;
+}
+
+
+#smiley:hover {
+  color: #1d5ae0
+}
+
+#hello {
+  padding-left: 25px;
+}
+
+@media (max-width: 500px) {
+ .grid-img  {
+width: 350px;
+height: 300px;
+ }
+
+}
+
+
+ 
